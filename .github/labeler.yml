@@ -1,5 +1,10 @@
-# Labeler Config
+# Labeler testing config
 documentation:
   - '*.md'
 frontend:
   - '*.html'
+workflow:
+  - '**/*.yml'
+  - '**/*.yaml'
+question:
+  - '*.txt'
