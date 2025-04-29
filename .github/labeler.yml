@@ -6,3 +6,5 @@ frontend:
 workflow:
   - '**/*.yml'
   - '**/*.yaml'
+question:
+  - '*.txt'
