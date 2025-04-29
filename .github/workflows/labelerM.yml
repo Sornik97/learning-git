@@ -6,7 +6,7 @@
 # https://github.com/actions/labeler
 
 
-name: playin with Labeler action
+name: testing label
 on: [pull_request_target]
 
 jobs:
