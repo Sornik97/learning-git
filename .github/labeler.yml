@@ -4,4 +4,4 @@ documentation:
 frontend:
   - '*.html'
 workflow:
-  - '*.yml'
+  - '**/*.yml'
