@@ -10,6 +10,3 @@ question:
   - '*.txt'
 release:
   - base-branch: 'main'
-information:
-  - changed-files:
-    - any-glob-to-any-file: ['yamlfiles/*', 'guides/*']
