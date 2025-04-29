@@ -1,7 +1,8 @@
-# Labeler testing config ss
+# Labeler testing config
 documentation:
   - '*.md'
 frontend:
   - '*.html'
 workflow:
   - '**/*.yml'
+  - '**/*.yaml'
