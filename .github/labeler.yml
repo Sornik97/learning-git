@@ -11,6 +11,5 @@ question:
 release:
   - base-branch: 'main'
 information:
-  - any:
-    - changed-files:
-      - any-glob-to-any-file: ['yamlfiles/*', 'guides/*']
+  - changed-files:
+    - any-glob-to-any-file: ['yamlfiles/*', 'guides/*']
