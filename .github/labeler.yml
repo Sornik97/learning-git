@@ -1,4 +1,4 @@
-# Labeler testing config
+# Labeler testing config ss
 documentation:
   - '*.md'
 frontend:
