@@ -8,3 +8,9 @@ workflow:
   - '**/*.yaml'
 question:
   - '*.txt'
+release:
+  - base-branch: 'main'
+information:
+  - any:
+    - changed-files:
+      - any-glob-to-any-file: ['yamlfiles/*', 'guides/*']
