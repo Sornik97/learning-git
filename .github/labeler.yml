@@ -4,7 +4,7 @@ documentation:
 frontend:
   - '*.html'
 workflow:
-  - '.github/workflows/*.yml'
+  - '**/*.yml'
   - '**/*.yaml'
 question:
   - '*.txt'
