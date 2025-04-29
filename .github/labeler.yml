@@ -3,3 +3,5 @@ documentation:
   - '*.md'
 frontend:
   - '*.html'
+workflow:
+  - '*.yml'
