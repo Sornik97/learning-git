@@ -1,0 +1,5 @@
+# Labeler Config
+documentation:
+  - '*.md'
+frontend:
+  - '*.html'
