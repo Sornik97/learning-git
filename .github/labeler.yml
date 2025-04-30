@@ -1,0 +1,15 @@
+# Labeler testing config
+documentation:
+  - '*.md'
+frontend:
+  - '*.html'
+workflow:
+  - '**/*.yml'
+  - '**/*.yaml'
+question:
+  - '*.txt'
+release:
+  - base-branch: 'main'
+information:
+  - 'yamlfiles/*'
+  - 'guides/*'
