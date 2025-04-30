@@ -42,4 +42,21 @@ jobs:
           env: 
             GITHUB_CONTEXT: ${{ toJSON(github) }}
           run: echo "$GITHUB_CONTEXT"
+  deploy:
+    needs: info
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate deployment report
+        run: |
+            echo "Deployment Summary" > deployment-report.txt
+            echo "Date: $(date)" >> deployment-report.txt
+            echo "Commit: $GITHUB_SHA" >> deployment-report.txt
+            echo "Deployed by: $GITHUB_ACTOR" >> deployment-report.txt
+
+      - name: Upload deployment report
+        uses: actions/upload-artifact@v4
+        with:
+          name: deployment-report
+          path: deployment-report.txt
+       
   
