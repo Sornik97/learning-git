@@ -1,5 +1,7 @@
 # Invatare GitHub
 
+Pentru a invata GitHub intr-un mod placut, accesati [Git branching](learngitbranching.js.org).
+
 E fain Git-ul.
 
 1. unu
@@ -17,5 +19,5 @@ E fain Git-ul.
 if x==1:
   y=2
 
-      if x==1 && z==10:
+      if x==1 and z!=4:
         y=2
