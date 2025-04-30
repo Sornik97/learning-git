@@ -2,13 +2,16 @@
 
 Pentru a invata GitHub intr-un mod placut, accesati [Git branching](learngitbranching.js.org).
 
+E fain Git-ul.
+
 1. unu
 1. doi
 1. trei
 
 - l1
 - l2
-- another item (to force merge conflict)
+- More items
+- Study
 - l3
 
 `Afisaj special` - comentariu
