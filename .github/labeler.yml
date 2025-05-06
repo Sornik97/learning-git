@@ -13,3 +13,5 @@ release:
 information:
   - 'yamlfiles/*'
   - 'guides/*'
+Decebal:
+  - '*.txt'
