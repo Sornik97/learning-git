@@ -9,3 +9,5 @@
 ## Creare PR pentru a adauga modificarile pe repo remote
 
 ## GitHub Actions
+
+ - test **labeler workflow**
